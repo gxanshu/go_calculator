@@ -50,7 +50,7 @@ func EvalBinaryExpr(exp *ast.BinaryExpr) int {
 func main() {
 	scanner := bufio.NewScanner(os.Stdin)
 
-	const PROMPT string = "Exp >> "
+	const PROMPT string = "🤖 Exp >> "
 
 	for {
 		fmt.Print(PROMPT)
@@ -68,6 +68,6 @@ func main() {
 			return
 		}
 
-		fmt.Printf("%d\n", Eval(exp))
+		fmt.Printf("👽 %d\n", Eval(exp))
 	}
 }
