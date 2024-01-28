@@ -1,0 +1,5 @@
+Package: gxcal
+Version: 1.0.0
+Architecture: amd64
+Maintainer: Gx Anshu <gxanshu@yahoo.com>
+Description: My Go Application
